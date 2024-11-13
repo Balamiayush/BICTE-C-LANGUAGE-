@@ -21,3 +21,30 @@ int main(){
 
     return 0;
 }
+
+// #include<stdio.h>
+
+// int main(){
+//     int num = 111;
+    
+//     // If the number is negative or if the last digit is 0 and the number isn't 0, it's not a palindrome
+//     if (num < 0 || (num % 10 == 0 && num != 0)) {
+//         printf("%d is not a palindrome", num);
+//         return 0;
+//     }
+    
+//     int reverseHalf = 0;
+//     while (num > reverseHalf) {
+//         reverseHalf = reverseHalf * 10 + num % 10;
+//         num = num / 10;
+//     }
+    
+//     // Check if the original number (now partially divided) is equal to the reversed half
+//     if (num == reverseHalf || num == reverseHalf / 10) {
+//         printf("The number is a palindrome");
+//     } else {
+//         printf("The number is not a palindrome");
+//     }
+
+//     return 0;
+// }
